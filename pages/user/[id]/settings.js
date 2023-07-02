@@ -5,12 +5,12 @@ import React from "react";
 
 const settings = () => {
   const {
-    query: { username },
+    query: { id },
   } = useRouter();
 
   return (
     <div>
-      <h1>This is {username}&apos; seetings</h1>
+      <h1>This is {id}&apos; seetings</h1>
     </div>
   );
 };
