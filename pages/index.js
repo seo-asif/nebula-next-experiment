@@ -1,7 +1,8 @@
 import Head from "next/head";
 
 import styles from "../styles/Home.module.css";
-
+import Image from "next/image";
+import plane from "../public/plane.webp";
 export default function Home() {
   return (
     <div className={styles.container}>
@@ -11,7 +12,8 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div>Hellosjb b b b j j j b bb  b b b b  b  j j j j j j jj j j j j j j j j j j jb </div>
+      <div>Hello Welcome </div>
+      <Image src={plane} alt="image" height={500} width={700} />
     </div>
   );
 }
